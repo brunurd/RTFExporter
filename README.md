@@ -20,7 +20,8 @@ public class Example {
 
     using (RTFDocument doc = new RTFDocument("example.rtf")) {
         var p = doc.AppendParagraph();
-        var t = p.AppendText("Yo my vag is Godfather 1 and yo vag is Godfather 3");
+        var t = p.AppendText("Boy toy named Troy used to live in Detroit\n");
+        t.content += "Big big big money, he was gettin' some coins";
 
         t.style.bold = true;
         t.style.color = new Color(255, 0, 0);
@@ -42,16 +43,25 @@ public class Example {
     RTFDocument doc = new RTFDocument();
     RTFParagraph p = new RTFParagraph(doc);
 
-    RTFText t1 = new RTFText(p, "Kitty on fleek, pretty on fleek\n");
+    RTFText t1 = new RTFText(p, "My anaconda don't, my anaconda don't\n");
     t.SetStyle(new Color(255, 0, 0), 18, "Helv");
 
-    RTFText t2 = new RTFText(p, "Pretty gang always keep them niggas on geek");
+    RTFText t2 = new RTFText(p, "My anaconda don't want none unless you got buns, hun");
     t2.style = t1.style;
 
     string output = RTFParser.ToString(doc);
 
 }
 ```
+
+
+---
+
+
+## Why?  
+
+
+This repository originally was made to export text files from Unity game engine, but can be used for any purpose.
 
 
 ---
