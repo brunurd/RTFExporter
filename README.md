@@ -18,14 +18,18 @@ using RTFExporter;
 
 public class Example {
 
-    using (RTFDocument doc = new RTFDocument("example.rtf")) {
-        var p = doc.AppendParagraph();
-        var t = p.AppendText("Boy toy named Troy used to live in Detroit\n");
-        t.content += "Big big big money, he was gettin' some coins";
+    public void IDisposableExample() {
 
-        t.style.bold = true;
-        t.style.color = new Color(255, 0, 0);
-        t.style.fontFamily = "Courier";
+        using (RTFDocument doc = new RTFDocument("example.rtf")) {
+            var p = doc.AppendParagraph();
+            var t = p.AppendText("Boy toy named Troy used to live in Detroit\n");
+            t.content += "Big big big money, he was gettin' some coins";
+
+            t.style.bold = true;
+            t.style.color = new Color(255, 0, 0);
+            t.style.fontFamily = "Courier";
+        }
+
     }
 
 }
@@ -40,16 +44,20 @@ using RTFExporter;
 
 public class Example {
 
-    RTFDocument doc = new RTFDocument();
-    RTFParagraph p = new RTFParagraph(doc);
+    public void StringExample() {
 
-    RTFText t1 = new RTFText(p, "My anaconda don't, my anaconda don't\n");
-    t.SetStyle(new Color(255, 0, 0), 18, "Helv");
+        RTFDocument doc = new RTFDocument();
+        RTFParagraph p = new RTFParagraph(doc);
 
-    RTFText t2 = new RTFText(p, "My anaconda don't want none unless you got buns, hun");
-    t2.style = t1.style;
+        RTFText t1 = new RTFText(p, "My anaconda don't, my anaconda don't\n");
+        t1.SetStyle(new Color(255, 0, 0), 18, "Helv");
 
-    string output = RTFParser.ToString(doc);
+        RTFText t2 = new RTFText(p, "My anaconda don't want none unless you got buns, hun");
+        t2.style = t1.style;
+
+        string output = RTFParser.ToString(doc);
+
+    }
 
 }
 ```
