@@ -98,6 +98,18 @@ public class Example {
 ---
 
 
+## Missing
+
+
+- Support to non-latin characters
+- Use stylesheets
+- Lists
+- And a lot more of RTF stuff
+
+
+---
+
+
 ## Why?  
 
 
