@@ -1,4 +1,4 @@
-# RTF-Exporter
+# RTFExporter
 
 
 A C# library to generate .RTF text files from any string object data, stylized and ready for any text processor. No fancy dependencies or restrictive licenses.
@@ -105,15 +105,6 @@ public class Example {
 - Use stylesheets
 - Lists
 - And a lot more of RTF stuff
-
-
----
-
-
-## Why?  
-
-
-This repository originally was made to export text files from Unity game engine, but can be used for any purpose.
 
 
 ---
