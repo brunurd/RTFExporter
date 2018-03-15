@@ -34,5 +34,10 @@
     <Compile Include="src\RTFText.cs" />
     <Compile Include="src\RTFTextStyle.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE.md" />
+    <None Include="README.md" />
+    <None Include="RTFExporter.nuspec" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
