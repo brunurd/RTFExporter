@@ -3,15 +3,16 @@
   <metadata>
     <id>$id$</id>
     <version>$version$</version>
-    <title>$title$</title>
+    <title>$id$</title>
     <authors>$author$</authors>
-    <owners>$author$</owners>
+    <owners>lavaleak</owners>
     <licenseUrl>https://github.com/brunurd/RTFExporter/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/brunurd/RTFExporter</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>First stable version.</releaseNotes>
-    <copyright>Copyright 2017 Bruno Araujo araujo.contato@gmail.com</copyright>
+    <summary>$description$</summary>
+    <releaseNotes>Ported to .NET standard 2.0.</releaseNotes>
+    <copyright>Copyright 2017-2018 Bruno Araujo araujo.contato@gmail.com</copyright>
     <tags>rtf rich text doc docx word string</tags>
     <language>C#</language>
   </metadata>

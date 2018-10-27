@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
@@ -8,14 +7,12 @@
     <Description>A C# library to generate .RTF text files from any string object data, stylized and ready for any text processor. No fancy dependencies or restrictive licenses.</Description>
     <PackageLicenseUrl>https://github.com/brunurd/RTFExporter/blob/master/LICENSE.md</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/brunurd/RTFExporter</PackageProjectUrl>
-    <PackageReleaseNotes>First stable version.
-Ported to .NET standard 2.0</PackageReleaseNotes>
+    <PackageReleaseNotes>Ported to .NET standard 2.0.</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/brunurd/RTFExporter</RepositoryUrl>
     <Version>1.1.0</Version>
     <Authors>Bruno Araujo</Authors>
     <Company>lavaleak</Company>
     <PackageTags>rtf rich text doc docx word string</PackageTags>
-    <Copyright>Copyright 2017 Bruno Araujo araujo.contato@gmail.com</Copyright>
+    <Copyright>Copyright 2017-2018 Bruno Araujo araujo.contato@gmail.com</Copyright>
   </PropertyGroup>
-
 </Project>
