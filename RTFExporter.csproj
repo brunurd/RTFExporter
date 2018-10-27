@@ -11,7 +11,7 @@
     <PackageReleaseNotes>First stable version.
 Ported to .NET standard 2.0</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/brunurd/RTFExporter</RepositoryUrl>
-    <Version>1.0.2</Version>
+    <Version>1.1.0</Version>
     <Authors>Bruno Araujo</Authors>
     <Company>lavaleak</Company>
     <PackageTags>rtf rich text doc docx word string</PackageTags>
