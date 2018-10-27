@@ -1,6 +1,6 @@
 # RTFExporter
 
-***Warning to Unity users: After the version 1.1.0 is necessary to use the 4.x target framework to the dll work properly***
+***Warning to Unity users: After the version 1.1.0 is necessary to use the .NET Framework 4.6 to the dll work properly***
 
 A C# library to generate .RTF text files from any string object data, stylized and ready for any text processor. No fancy dependencies or restrictive licenses.
 
