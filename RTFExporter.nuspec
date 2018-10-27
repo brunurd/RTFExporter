@@ -1,24 +1,18 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>RTFExporter</id>
-    <version>1.0.2</version>
-    <title>RTFExporter</title>
-    <authors>Bruno Araujo</authors>
-    <owners>lavaleak</owners>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
     <licenseUrl>https://github.com/brunurd/RTFExporter/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/brunurd/RTFExporter</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A C# library to generate .RTF text files from any string object data, stylized and ready for any text processor. No fancy dependencies or restrictive licenses.</description>
-    <summary>A C# library to generate .RTF text files from any string object data, stylized and ready for any text processor. No fancy dependencies or restrictive licenses.</summary>
+    <description>$description$</description>
     <releaseNotes>First stable version.</releaseNotes>
     <copyright>Copyright 2017 Bruno Araujo araujo.contato@gmail.com</copyright>
     <tags>rtf rich text doc docx word string</tags>
     <language>C#</language>
   </metadata>
-  <files>
-    <file src="README.md" target="content\README.md" />
-    <file src="LICENSE.md" target="content\LICENSE.md" />
-    <file src="bin\RTFExporter.dll" target="lib\{framework name}[{version}]" />
-  </files>
 </package>
