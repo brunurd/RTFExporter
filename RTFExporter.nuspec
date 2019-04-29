@@ -6,8 +6,8 @@
     <title>$id$</title>
     <authors>$author$</authors>
     <owners>lavaleak</owners>
-    <licenseUrl>https://github.com/brunurd/RTFExporter/blob/master/LICENSE.md</licenseUrl>
-    <projectUrl>https://github.com/brunurd/RTFExporter</projectUrl>
+    <licenseUrl>https://github.com/lavaleak/RTFExporter/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/lavaleak/RTFExporter</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <summary>$description$</summary>
