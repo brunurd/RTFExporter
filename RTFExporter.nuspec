@@ -1,18 +1,19 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
-    <title>$id$</title>
-    <authors>$author$</authors>
+    <id>RTFExporter</id>
+    <version>1.1.2</version>
+    <title>RTFExporter</title>
+    <authors>Bruno Araujo</authors>
     <owners>lavaleak</owners>
-    <licenseUrl>https://github.com/lavaleak/RTFExporter/blob/master/LICENSE.md</licenseUrl>
+    <license type="file">LICENSE.md</license>
     <projectUrl>https://github.com/lavaleak/RTFExporter</projectUrl>
+    <repository type="git" url="https://github.com/lavaleak/RTFExporter" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <summary>$description$</summary>
-    <releaseNotes>Ported to .NET standard 2.0.</releaseNotes>
-    <copyright>Copyright 2017-2018 Bruno Araujo araujo.contato@gmail.com</copyright>
+    <description>A C# library to generate .RTF text files from any string object data, stylized and ready for any text processor. No fancy dependencies or restrictive licenses.</description>
+    <summary>A C# library to generate .RTF text files from any string object data, stylized and ready for any text processor. No fancy dependencies or restrictive licenses.</summary>
+    <releaseNotes>Specs update.</releaseNotes>
+    <copyright>Copyright 2017-2019 Bruno Araujo bruno@lavaleakgames.com</copyright>
     <tags>rtf rich text doc docx word string</tags>
     <language>C#</language>
   </metadata>
