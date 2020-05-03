@@ -1,10 +1,13 @@
 # RTFExporter
 
 
+[![NuGet Version](https://img.shields.io/nuget/v/RTFExporter)][nuget]
+![C# Version](https://img.shields.io/badge/C%23-4.0-621ee5)
+![Framework Version](https://img.shields.io/badge/framework-netstandard2.0-621ee5)
+![.NETFramework Version](https://img.shields.io/badge/.NET_Framework-4.6.1-621ee5)
+
+
 A C# library to generate .RTF text files from any string object data, stylized and ready for any text processor. No fancy dependencies or restrictive licenses.
-
-
-***Warning to Unity users: After the version 1.1.0 is necessary to use the .NET Framework 4.6 to the dll work properly.***
 
 
 ---
@@ -103,7 +106,7 @@ public class Example {
 
 ## Missing
 
-
+- Parse a rtf file to RTFDocument object
 - Support to non-latin characters
 - Use stylesheets
 - Lists
@@ -117,3 +120,5 @@ public class Example {
 
 
 <a href="http://www.wtfpl.net/"><img src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png" width="80" height="15" alt="WTFPL" /></a>
+
+[nuget]: https://www.nuget.org/packages/RTFExporter
