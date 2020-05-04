@@ -33,8 +33,8 @@ public class Example {
             p.style.indent = new Indent(1, 0, 0);
             p.style.spaceAfter = 400;
 
-            var t = p.AppendText("Boy toy named Troy used to live in Detroit\n");
-            t.content += "Big big big money, he was gettin' some coins";
+            var t = p.AppendText("One: Don't pick up the phone\n");
+            t.content += "You know he's only callin' 'cause he's drunk and alone";
 
             t.style.bold = true;
             t.style.color = new Color(255, 0, 0);
@@ -60,10 +60,10 @@ public class Example {
         RTFDocument doc = new RTFDocument();
         RTFParagraph p = new RTFParagraph(doc);
 
-        RTFText t1 = new RTFText(p, "My anaconda don't, my anaconda don't\n");
+        RTFText t1 = new RTFText(p, "Two: Don't let him in\n");
         t1.SetStyle(new Color(255, 0, 0), 18, "Helv");
 
-        RTFText t2 = new RTFText(p, "My anaconda don't want none unless you got buns, hun");
+        RTFText t2 = new RTFText(p, "You'll have to kick him out again");
         t2.style = t1.style;
 
         string output = RTFParser.ToString(doc);
