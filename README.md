@@ -119,6 +119,6 @@ public class Example {
 ## License  (WTFPL-2.0)
 
 
-<a href="http://www.wtfpl.net/"><img src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png" width="80" height="15" alt="WTFPL" /></a>
+[![WTFPL Badge](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png)](http://www.wtfpl.net/)
 
 [nuget]: https://www.nuget.org/packages/RTFExporter
