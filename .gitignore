@@ -320,3 +320,6 @@ ASALocalRun/
 
 # MSBuild Binary and Structured Log
 *.binlog
+
+# misc
+.DS_Store
